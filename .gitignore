@@ -1,0 +1,15 @@
+# Ignore temp files
+.gemini/tmp/
+.gemini/history/
+
+# Keep the context file
+!.gemini/GEMINI.md
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Node modules (if using JS)
+node_modules/
+.svelte-kit/
+build/
