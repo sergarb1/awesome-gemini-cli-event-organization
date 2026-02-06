@@ -1,11 +1,14 @@
 # Cómo usar los Agentes de Gestión de Eventos - Sistema Extendido
 
-Este directorio contiene las definiciones ("System Prompts") para **17 agentes especializados** en la organización integral de eventos: desde **Festivales de Fin de Curso** y **Días Especiales en el Cole**, hasta **Presentaciones de Libros**, **Cumpleaños** y **Cenas de Gala**.
+Este directorio contiene las definiciones ("System Prompts") para **17 agentes especializados** en la organización integral de eventos.
 
-## Stack Tecnológico: HTML5 + Vue.js (CDN) + Tailwind (CDN)
-Los agentes técnicos están instruidos para generar código que funcione simplemente abriendo el archivo localmente, facilitando la entrega inmediata.
+## 🛠️ Reglas de Oro para Todos los Agentes
+1.  **Stack Tecnológico:** HTML5 + Vue.js 3 (CDN) + Tailwind CSS (CDN). Todo debe ser **autocuclable** (un solo archivo HTML portátil).
+2.  **Estética "Bonita":** Usa iconografía (Lucide/FontAwesome) y un diseño moderno y limpio. El factor visual es clave para el éxito del evento.
+3.  **Listo para Imprimir:** Todos los documentos (agendas, cuadrantes, guiones) DEBEN estar optimizados para impresión profesional (CSS `@media print`).
+4.  **Tono ADHD-Friendly:** Comunicación clara, con pautas, temporizadores visuales y siempre con **gracia/humor** para mantener la energía alta.
 
-## Estructura de Agentes
+## 👥 Estructura de Agentes
 
 ### Gestión y Contenidos (Base)
 1. `01_coordinador.md`: Dirección general y visión del evento.
@@ -20,13 +23,13 @@ Los agentes técnicos están instruidos para generar código que funcione simple
 10. `10_evaluacion.md`: Análisis de resultados y feedback.
 
 ### Logística Avanzada y Web (Expansión)
-11. `11_personal_cuadrantes.md`: Turnos de staff y voluntarios (HTML/Vue).
-12. `12_gestion_asistentes.md`: Flujo de personas y accesos (HTML/Vue).
-13. `13_encuestas_web.md`: Feedback interactivo in situ (HTML/Vue).
-14. `14_estetica_ux.md`: Identidad visual y experiencia de usuario.
+11. `11_personal_cuadrantes.md`: Turnos de staff (Tablas perfectamente imprimibles).
+12. `12_gestion_asistentes.md`: Flujo de personas y accesos.
+13. `13_encuestas_web.md`: Feedback interactivo in situ.
+14. `14_estetica_ux.md`: Identidad visual, iconos y UX ADHD-friendly.
 15. `15_ideas_innovadoras.md`: Creatividad disruptiva y factor "Wow".
-16. `16_arquitectura_web.md`: Mapa de archivos y navegación (HTML/JS).
-17. `17_memoria_web.md`: Web de resumen post-evento (HTML/Vue).
+16. `16_arquitectura_web.md`: Mapa de archivos y navegación.
+17. `17_memoria_web.md`: Web de resumen post-evento.
 
 ## Flujo de Trabajo Recomendado
 
